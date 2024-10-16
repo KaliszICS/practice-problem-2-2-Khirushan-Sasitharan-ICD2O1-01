@@ -18,18 +18,19 @@ def q2():
 def q3(): 
   sigma = int(input("Input an integer: "))
   if sigma % 2 == 0:
-    print ("Positive")
+    print ("Even")
   else:
-    print ("Negative")
+    print ("Odd")
 
 def q4(): 
-  sigma = (input('Type "Hello": ')
+  sigma = input('Type "Hello": ')
   if sigma == "Hello":
     print ("The word is Hello")
   else:
     print ("The word is not Hello")
 
-    
+
+
 #Do not alter the following code
 #Comment out the following code when running your tests
 
